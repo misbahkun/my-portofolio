@@ -23,3 +23,12 @@ export interface BlogPost {
   lang: 'ID' | 'EN'
   content: string
 }
+
+export interface Experience {
+  type: 'work' | 'education'
+  title: string
+  organization: string
+  period: string
+  description: string
+  tags?: string[]
+}
