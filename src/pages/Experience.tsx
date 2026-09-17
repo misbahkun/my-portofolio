@@ -92,7 +92,7 @@ export function Experience() {
 
       <div className="not-prose">
         {experiences.map((entry) => (
-          <TimelineEntry key={`${entry.type}-${entry.organization}`} entry={entry} />
+          <TimelineEntry key={`${entry.type}-${entry.organization}-${entry.period}`} entry={entry} />
         ))}
       </div>
     </div>
