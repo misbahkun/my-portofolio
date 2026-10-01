@@ -73,6 +73,9 @@ function TimelineEntry({ entry }: { entry: ExperienceType }) {
 }
 
 export function Experience() {
+  const work = experiences.filter((entry) => entry.type === 'work')
+  const education = experiences.filter((entry) => entry.type === 'education')
+
   return (
     <div className="prose dark:prose-invert">
       <Helmet>
@@ -88,13 +91,19 @@ export function Experience() {
         />
       </Helmet>
 
-      <h1 className="text-center mt-5">Experience</h1>
-
-      <div className="not-prose">
-        {experiences.map((entry) => (
+      <section className="not-prose">
+        <h1 className="mt-5 mb-8 text-center text-3xl font-bold">My Experience</h1>
+        {work.map((entry) => (
           <TimelineEntry key={`${entry.type}-${entry.organization}-${entry.period}`} entry={entry} />
         ))}
-      </div>
+      </section>
+
+      <section className="not-prose mt-14">
+        <h1 className="mt-5 mb-8 text-center text-3xl font-bold">My Education</h1>
+        {education.map((entry) => (
+          <TimelineEntry key={`${entry.type}-${entry.organization}-${entry.period}`} entry={entry} />
+        ))}
+      </section>
     </div>
   )
 }
