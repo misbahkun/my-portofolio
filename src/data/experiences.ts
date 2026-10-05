@@ -23,7 +23,7 @@ export const experiences: Experience[] = [
     type: 'work',
     title: 'Fullstack Developer',
     organization: 'Garangan Tech',
-    period: 'Mei 2025 — Jul 2025',
+    period: 'May 2025 — Jul 2025',
     description:
       'Delivered 6 new features and 20+ bug fixes across 3 client projects using Laravel, React.js, and PostgreSQL in a hybrid team. Coordinated directly with client stakeholders during User Acceptance Testing (UAT) to secure formal project sign-offs.',
     tags: ['Laravel', 'React.js', 'PostgreSQL', 'UAT', 'Teamwork'],
@@ -41,7 +41,7 @@ export const experiences: Experience[] = [
     type: 'work',
     title: 'Web Developer',
     organization: 'TegalPedia',
-    period: 'Feb 2024 — Agu 2024',
+    period: 'Feb 2024 — Aug 2024',
     description:
       'Maintained news portal CMS features, content taxonomy, and SEO-friendly slug architecture serving 500+ daily visitors. Improved page load speed by 35% through image optimization and query caching.',
     tags: ['PHP', 'CMS', 'MySQL', 'SEO', 'Web Performance'],
