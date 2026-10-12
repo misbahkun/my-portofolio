@@ -32,7 +32,7 @@ export const experiences: Experience[] = [
     type: 'work',
     title: 'Fullstack Developer (Freelance)',
     organization: 'Self-employed',
-    period: 'Feb 2024 — Dec 2024',
+    period: 'Jan 2025 — Present',
     description:
       'Delivered 7 custom Laravel web applications for SME clients, including Point of Sale (POS), inventory systems, and company profiles. Handled full lifecycle from requirement discovery, system architecture, Midtrans payment gateway integration, to cPanel/VPS deployment.',
     tags: ['Laravel', 'MySQL', 'Midtrans', 'Docker', 'VPS Deployment', 'REST APIs'],
