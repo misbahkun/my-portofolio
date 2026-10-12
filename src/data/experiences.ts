@@ -41,7 +41,7 @@ export const experiences: Experience[] = [
     type: 'education',
     title: 'Diploma III (D3) Teknik Informatika',
     organization: 'Politeknik Baja Tegal',
-    period: 'Jul 2023 — Sep 2026',
+    period: 'Agu 2025 — Agu 2026',
     description:
       'Studied informatics engineering with a core focus on software engineering, relational databases, Linux server management, and network infrastructure. Certified MikroTik Network Associate (MTCNA) and BNSP Junior Web Developer.',
     tags: ['Informatics Engineering', 'Linux Server', 'MTCNA', 'BNSP', 'Networking'],
