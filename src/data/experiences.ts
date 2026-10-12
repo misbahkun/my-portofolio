@@ -5,7 +5,7 @@ export const experiences: Experience[] = [
     type: 'work',
     title: 'Fullstack Developer',
     organization: 'PT. Perintis Kode Global',
-    period: 'Jul 2025 — Jan 2026',
+    period: 'Jul 2026 — Sep 2026',
     description:
       'Developed and maintained fullstack web modules using Laravel, MySQL, and RESTful APIs with Blade and React.js / Tailwind CSS frontend. Optimized MySQL database queries and API endpoint performance, reducing page load latency on high-traffic modules.',
     tags: ['Laravel', 'MySQL', 'REST API', 'React.js', 'Tailwind CSS', 'Git'],
