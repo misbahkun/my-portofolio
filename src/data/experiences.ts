@@ -14,7 +14,7 @@ export const experiences: Experience[] = [
     type: 'work',
     title: 'Programmer (Internship)',
     organization: 'CV. Yuhlez Software House',
-    period: '',
+    period: 'Nov 2025 — Jan 2026',
     description:
       'Built an e-commerce web application with Laravel and MySQL, from design through development. Developed product catalog, shopping cart, and responsive UI modules with the dev team.',
     tags: ['Laravel', 'MySQL', 'E-Commerce', 'Responsive UI'],
@@ -23,7 +23,7 @@ export const experiences: Experience[] = [
     type: 'work',
     title: 'Fullstack Developer',
     organization: 'Garangan Tech',
-    period: 'May 2025 — Jul 2025',
+    period: 'Mar 2025 — Jul 2025',
     description:
       'Delivered 6 new features and 20+ bug fixes across 3 client projects using Laravel, React.js, and PostgreSQL in a hybrid team. Coordinated directly with client stakeholders during User Acceptance Testing (UAT) to secure formal project sign-offs.',
     tags: ['Laravel', 'React.js', 'PostgreSQL', 'UAT', 'Teamwork'],
@@ -36,15 +36,6 @@ export const experiences: Experience[] = [
     description:
       'Delivered 7 custom Laravel web applications for SME clients, including Point of Sale (POS), inventory systems, and company profiles. Handled full lifecycle from requirement discovery, system architecture, Midtrans payment gateway integration, to cPanel/VPS deployment.',
     tags: ['Laravel', 'MySQL', 'Midtrans', 'Docker', 'VPS Deployment', 'REST APIs'],
-  },
-  {
-    type: 'work',
-    title: 'Web Developer',
-    organization: 'TegalPedia',
-    period: 'Feb 2024 — Aug 2024',
-    description:
-      'Maintained news portal CMS features, content taxonomy, and SEO-friendly slug architecture serving 500+ daily visitors. Improved page load speed by 35% through image optimization and query caching.',
-    tags: ['PHP', 'CMS', 'MySQL', 'SEO', 'Web Performance'],
   },
   {
     type: 'education',
